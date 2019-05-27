@@ -50,7 +50,7 @@ namespace Consola
     {
         static void Main(string[] args)
         {
-            /*
+            
             Rack rack = new Rack();
             rack.AddBall(20);
             foreach(var b in rack.balls)
@@ -82,7 +82,7 @@ namespace Consola
                 Console.Write("{0} ", b);
             }
             Console.WriteLine();
-            Console.ReadLine();*/
+            Console.ReadLine();
 
             string inputText = "When not studying nuclear physics, Bambi likes to play beach volleyball.";
             SortedDictionary<char, int> tablaFrecuencia = new SortedDictionary<char, int>();
